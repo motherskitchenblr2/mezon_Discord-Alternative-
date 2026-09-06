@@ -13721,21 +13721,28 @@ mezon-active-windows@0.1.38:
   dependencies:
     node-addon-api "^1.7.2"
 
-mezon-js-protobuf@1.10.59, mezon-js-protobuf@^1.10.59:
-  version "1.10.59"
-  resolved "https://registry.yarnpkg.com/mezon-js-protobuf/-/mezon-js-protobuf-1.10.59.tgz#e43b8ee1d988bf3171e66c03737173309dcfc143"
-  integrity sha512-6+4/BJF86EXPSAPSbBKg0LyaGPipKVDZpCBhuOWsvYTWt7QPi6kwUJAcL6MP6iplK0+5nn19/p+8H1c7AFmBFg==
+mezon-js-protobuf@1.10.60:
+  version "1.10.60"
+  resolved "https://registry.yarnpkg.com/mezon-js-protobuf/-/mezon-js-protobuf-1.10.60.tgz#2e318000807bf792b4ac3063a65699d38089d986"
+  integrity sha512-i9+QqiiBw9jWlI7dwlIT/Ed4/7iKktTUP9rgUFmtN7SxokDUStCNRAniLSFOa7pJRv3xlkYy+Ppoc5aE1dCM3Q==
   dependencies:
     protobufjs "^7.2.4"
 
-mezon-js@2.15.61:
-  version "2.15.61"
-  resolved "https://registry.yarnpkg.com/mezon-js/-/mezon-js-2.15.61.tgz#ae172bb4e1042fdbe897dbe15b4b03505feb86ba"
-  integrity sha512-AKVwmVc5Ycj0HbSbrM+hYYiKfQwbh3A7Ve44SaS6DpLCy6P1IC2JiZxo93LOEIg/Rongm10uEjSYeDKikr7QNw==
+mezon-js-protobuf@^1.10.60:
+  version "1.10.66"
+  resolved "https://registry.yarnpkg.com/mezon-js-protobuf/-/mezon-js-protobuf-1.10.66.tgz#48b8c42c49fe135eb3ea8b25ea197cc952066011"
+  integrity sha512-bx6QJqB5S35nnfYmjvlgXqIDspq36wrfzFv31n6PWxb/epCmbQFxEq7UAUwzgukM6lMkCAmTv4E7VCc98z2jdA==
+  dependencies:
+    protobufjs "^7.2.4"
+
+mezon-js@2.15.62:
+  version "2.15.62"
+  resolved "https://registry.yarnpkg.com/mezon-js/-/mezon-js-2.15.62.tgz#41b28aaf9477c575057e3eaa88abadfb8e3dec7a"
+  integrity sha512-9S+aYpGhspIpwJEpXJpwlQq+jwg7OENY95N1LzeZIXATFavcl5vje8XyNE43p3DbxPe9OixN5hgTMdRh8tIwpQ==
   dependencies:
     base64-arraybuffer "^1.0.2"
     js-base64 "^3.7.8"
-    mezon-js-protobuf "^1.10.59"
+    mezon-js-protobuf "^1.10.60"
     whatwg-fetch "^3.6.2"
 
 micromatch@^4.0.0, micromatch@^4.0.2, micromatch@^4.0.4, micromatch@^4.0.5, micromatch@^4.0.8:
@@ -13975,9 +13982,9 @@ mz@^2.7.0:
     thenify-all "^1.0.0"
 
 nanoid@^3.3.11:
-  version "3.3.11"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.11.tgz#4f4f112cefbe303202f2199838128936266d185b"
-  integrity sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==
+  version "3.3.18"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.18.tgz#f66a2de1199ffde0fcf21c8a5f13106b1c081913"
+  integrity sha512-DTg4MJbGMWkfi6VZFdNt2/caMbQy4Ou+Op/hJQvGEWcnVfoA1QA+xzRKAzw9jD6+GVOOeYr/mIcuDSdug6F6+w==
 
 napi-build-utils@^2.0.0:
   version "2.0.0"
