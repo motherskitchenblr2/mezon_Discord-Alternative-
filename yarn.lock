@@ -11315,12 +11315,12 @@ language-tags@^1.0.9:
     language-subtag-registry "^0.3.20"
 
 launch-editor@^2.14.1:
-  version "2.14.1"
-  resolved "https://registry.yarnpkg.com/launch-editor/-/launch-editor-2.14.1.tgz#f7e0da3f58aaea03fea01074d840b5f739ed7ddc"
-  integrity sha512-QWBrQsMpH7gPr965dsKD/3cKWiNoTjpATQf++Xq63N6sKRGMwlVXz41O1IZTMfZQgBctD/K5Zt06+/I6pP6+HA==
+  version "2.14.2"
+  resolved "https://registry.yarnpkg.com/launch-editor/-/launch-editor-2.14.2.tgz#d476a1cb09159d9aee6ca225a8c7c6c1d94d6331"
+  integrity sha512-NHJEb30MGBCkmZXLZwz25t37QR4aY03ZzPYUJXOJaOa92uWwExI9SBQUuIznBYc1xkD7cJNGX7oc3Nl3sq2kQQ==
   dependencies:
     picocolors "^1.1.1"
-    shell-quote "^1.8.4"
+    shell-quote "^1.10.0"
 
 less-loader@^11.1.0:
   version "11.1.4"
@@ -11960,21 +11960,28 @@ metro@0.80.12:
     ws "^7.5.10"
     yargs "^17.6.2"
 
-mezon-js-protobuf@1.10.66, mezon-js-protobuf@^1.10.65:
-  version "1.10.66"
-  resolved "https://registry.yarnpkg.com/mezon-js-protobuf/-/mezon-js-protobuf-1.10.66.tgz#48b8c42c49fe135eb3ea8b25ea197cc952066011"
-  integrity sha512-bx6QJqB5S35nnfYmjvlgXqIDspq36wrfzFv31n6PWxb/epCmbQFxEq7UAUwzgukM6lMkCAmTv4E7VCc98z2jdA==
+mezon-js-protobuf@1.10.69:
+  version "1.10.69"
+  resolved "https://registry.yarnpkg.com/mezon-js-protobuf/-/mezon-js-protobuf-1.10.69.tgz#25fb733d257be5fe360dccf03cdf13c47d617405"
+  integrity sha512-jyqtW8epANLCELyckD/2V82zB5PcIF3CCyvarbcF7TsOj5kosT+e5yUfusTKY1Ds57+NkSHzeAISi3dkSS0uYg==
   dependencies:
     protobufjs "^7.2.4"
 
-mezon-js@2.16.0:
-  version "2.16.0"
-  resolved "https://registry.yarnpkg.com/mezon-js/-/mezon-js-2.16.0.tgz#a0c70f263f46ef7d3504f0c503902e6c7dfb3a6e"
-  integrity sha512-ZveYlcaDEDix1/rE92B1A32f2S5B6I8TjtBa7/Z4H1yVcWmc/qZr0BEm3j3cUf5cQ2yDW0Qwm0Rcdy0wKGLqtA==
+mezon-js-protobuf@^1.10.69:
+  version "1.10.80"
+  resolved "https://registry.yarnpkg.com/mezon-js-protobuf/-/mezon-js-protobuf-1.10.80.tgz#5ca3849940a55d68b2d9f9adbae29b6abbbd581e"
+  integrity sha512-Q6YRn/3SY9+JzQduWyq7oHKm4ILAv/mcmZgiO2zs7UDPt7d0DdlR2qFV7Xash8ilrEzrIFNn6Jr/32XuXnw7nQ==
+  dependencies:
+    protobufjs "^7.2.4"
+
+mezon-js@2.16.4:
+  version "2.16.4"
+  resolved "https://registry.yarnpkg.com/mezon-js/-/mezon-js-2.16.4.tgz#5dbd791450a0fcdd324f4dbf67028a0d1756f881"
+  integrity sha512-bkeJaPMtHX52xVtEWN+FC1ych1y3Q+i8Pfyo9cF9suM8XN8Al66W/+UuXccaMbowzXnm0WwpAwLbCK1Kk3R3LA==
   dependencies:
     base64-arraybuffer "^1.0.2"
     js-base64 "^3.7.8"
-    mezon-js-protobuf "^1.10.65"
+    mezon-js-protobuf "^1.10.69"
     whatwg-fetch "^3.6.2"
 
 micromatch@^4.0.2, micromatch@^4.0.4, micromatch@^4.0.5, micromatch@^4.0.8:
@@ -15258,7 +15265,12 @@ shebang-regex@^3.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
-shell-quote@^1.7.3, shell-quote@^1.8.4:
+shell-quote@^1.10.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.12.0.tgz#e98fdfd2e921d8a58ae2820f4fc0f75c39f09675"
+  integrity sha512-PcByqNyT/38F2kDNi006HAMRJaULuBzq/FOsw3qdZvX/GA9W/jamDaRskgHjubHiftXK5sIFxLNkvrXUwcof6Q==
+
+shell-quote@^1.7.3:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.10.0.tgz#482033e192e4f5c07151521ffa03400ec71b1b0f"
   integrity sha512-w1aiOKwKuRgtwAReIIj89puqg+I7GvX4IbLrvmhXbzQsj1+Zwi4VO3+fa6ZF91TWSjIxoEkKnMeHcLEODK5ZXA==
